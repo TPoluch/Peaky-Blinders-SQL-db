@@ -1,5 +1,7 @@
 -- ------ BASICS ------
 
+
+
 -- Show metadata of character_details table
 DESCRIBE character_details;
 
@@ -12,7 +14,11 @@ ORDER BY intro_season_id;
 SELECT DISTINCT COUNT(episode_id)
 FROM season_details;
 
+
+
 -- ------ WILDCARDS, LIMITS, ORDER BY, JOINS ------
+
+
 
 -- Show characters with first name containing 'ly' or last_name having 'h' as the second character and sex=M
 SELECT first_name,
@@ -38,7 +44,11 @@ FROM character_details
 LEFT OUTER JOIN season_details
 ON character_details.intro_season_id = season_details.season_id;
 
+
+
 -- ------ ALTER TABLE/COLUMN, CREATE NEW TABLE, DELETE/DROP ------
+
+
 
 -- Update episode_id column in season_details to remove trailing '0'
 ALTER TABLE season_details MODIFY COLUMN episode_id DECIMAL(2,1);
