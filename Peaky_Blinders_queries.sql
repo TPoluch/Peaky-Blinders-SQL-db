@@ -20,12 +20,12 @@ FROM season_details;
 
 
 
--- Show characters with first name containing 'ly' or last_name having 'h' as the second character and sex=M
+-- Show characters who are male and have first name containing 'ly' or last_name second character = 'h' 
 SELECT first_name,
        TRIM(last_name),
        sex
 FROM character_details
-WHERE (first_name LIKE '%ly%' or last_name LIKE '_h%') and sex='M';
+WHERE sex='M' and (first_name LIKE '%ly%' or last_name LIKE '_h%') ;
 
 -- Show the 5 oldest characters
 SELECT first_name as forename,
