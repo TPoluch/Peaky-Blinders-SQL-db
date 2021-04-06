@@ -8,16 +8,20 @@ This repository contains a file with the SQL used to create and configure the da
           * UPDATE
           * Subqueries
           * DELETE / DROP
+          * 
         2. Tables and views
           * CREATE / ALTER TABLE
           * MODIFY / ADD COLUMN
           * DROP TABLE / COLUMN
+          * 
         3. Clauses
           * WHERE
           * ORDER BY
           * GROUP BY
+          * 
         4. JOINS
           * INNER / OUTTER JOIN
+          * 
         5. CONDITIONS
           * AND / OR
           * LIKE
