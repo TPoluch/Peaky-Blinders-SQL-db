@@ -94,3 +94,6 @@ ALTER TABLE season_one_detail DROP COLUMN gang;
 -- Drop season_one_detail from "Peaky_Blinders" database
 
 DROP TABLE season_one_detail;
+
+
+
