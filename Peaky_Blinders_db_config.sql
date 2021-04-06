@@ -84,3 +84,7 @@ INSERT INTO enemy_details VALUES(111, 'Royal Irish Constabulary', 'Hired by Wins
 INSERT INTO enemy_details VALUES(112, 'The Economic League', 'Hughes does represent the Crown and was acting under orders to report to the Reds because they wanted to provoke an attack on British soil, that would break diplomatic relations with the Communists.');
 INSERT INTO enemy_details VALUES(113, 'Changretta mob', 'Launched a vandetta against Shelbys for killing his father.');
 INSERT INTO enemy_details VALUES(114, 'British Union of Fascists', 'Starting evil political regime');
+
+
+
+
